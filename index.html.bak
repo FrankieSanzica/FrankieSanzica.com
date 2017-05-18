@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link href='//fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+<link href="main.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frankie Sanzica</title>
+</head>
+
+<body>
+<section itemscope itemtype="http://schema.org/Person">
+<img id="me" src="me.jpg" itemprop="image" alt=Frankie Sanzica>
+
+<div id="follow">
+<!---
+<a href="https://www.facebook.com/Sanzica.Frankie"><img id="social" src="social/facebook.png"></a>
+-->
+<a href ="//linkedin.com/in/frankiesanzica/"><img id="social" src="social/linkedin.png"></a>
+<a href="//github.com/Frankie-Sanzica"><img id="social" src="social/Github.png"></a>
+<a href="//twitter.com/Frankie_Sanzica"><img id="social" src="social/twitter.png"></a>
+<a href="//plus.google.com/+FrankieSanzica/posts"><img id="social" src="social/g+.png"></a>
+</div>
+
+<h1 itemprop="name">Frankie Sanzica</h1>
+
+<div id="info">
+<nav>
+<ul>
+<li><a href="aboutme.html">About me</a></li>
+<li><a href="resume.html">Resume</a></li>
+<li><a href="contactme.html">Contact Me</a></li>
+</ul>
+</nav>
+
+<p itemprop="jobTitle">Hi! I'm Frankie, Linux System Administrator, Web Developer, and Boxing/MMA fan.</p>
+</div>
+Email Me!
+<a href="mailto:frankie@frankiesanzica.com" itemprop="email"><input type="submit" name="submit" value="Send"></a>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39098954-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+<footer>
+<small>&copy; 2014 Frankie Sanzica</small>
+</footer>
+</html>

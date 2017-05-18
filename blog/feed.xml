@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frankie Sanzica's Blog</title>
+    <description>This is my blog!</description>
+    <link>http://frankiesanzica.com/blog/</link>
+    <atom:link href="http://frankiesanzica.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 25 Sep 2016 01:14:57 -0400</pubDate>
+    <lastBuildDate>Sun, 25 Sep 2016 01:14:57 -0400</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Jekyll Workflow</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;After installing Jekyll, I was having a hard time finding a good guide online for a basic Jekyll blog workflow on a webserver (specifically CentOS 6).  This is my current workflow on a LAMP::&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll b
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd ../blog
+cp -R ../jekyll/_site/* .
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 25 Sep 2016 00:00:00 -0400</pubDate>
+        <link>http://frankiesanzica.com/blog/jekyll-workflow/</link>
+        <guid isPermaLink="true">http://frankiesanzica.com/blog/jekyll-workflow/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Installing Jekyll on CentOS 6</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Ruby and Gems:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;yum install -y ruby ruby-devel rubygems
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Install Jekyll:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install jekyll
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Start new Jekyll project in /blog directory:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll new blog
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/docs/installation/&quot;&gt;Jekyll Official Documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+</description>
+        <pubDate>Sat, 24 Sep 2016 00:00:00 -0400</pubDate>
+        <link>http://frankiesanzica.com/blog/installing-jekyll-on-centos-6/</link>
+        <guid isPermaLink="true">http://frankiesanzica.com/blog/installing-jekyll-on-centos-6/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
